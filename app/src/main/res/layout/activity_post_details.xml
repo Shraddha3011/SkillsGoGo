@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PostDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/postby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/amaranth"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name: "
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="21sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author email: "
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="21sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="post"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="21sp"
+            />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/comment"
+            android:text="comment"
+            android:layout_gravity="center"
+            android:background="@drawable/add_quiz_bg"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:textSize="23sp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/readcomments"
+            android:text="read comments"
+            android:layout_gravity="center"
+            android:background="@drawable/add_quiz_bg"
+            android:fontFamily="@font/anaheim"
+            android:padding="18dp"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

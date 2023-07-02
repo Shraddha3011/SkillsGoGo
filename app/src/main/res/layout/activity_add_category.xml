@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCategory"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a category:"
+        android:textSize="23sp"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/anaheim"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/categoryRadioGroup">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Business - Entrepreneurship"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Technology - Programming"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="Creative Arts"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Health - Fitness"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Language Learning"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Personal Finance"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Professional Skills"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Career Development"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Academic Subjects"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Lifestyle - Hobbies"
+            android:background="@drawable/add_quiz_bg"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/anaheim"
+            android:textColor="@color/white"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/black"
+        android:padding="15dp"/>
+
+</LinearLayout>

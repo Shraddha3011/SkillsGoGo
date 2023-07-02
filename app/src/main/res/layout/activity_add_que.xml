@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQue"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/que"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Enter Question"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="17dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/anaheim"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/addcourse_bg"/>
+
+    <EditText
+        android:id="@+id/op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Option 1"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="17dp"
+        android:fontFamily="@font/anaheim"
+        android:textSize="21sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/add_quiz_bg"/>
+
+    <EditText
+        android:id="@+id/op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Option 2"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="17dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/anaheim"
+        android:textSize="21sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/add_quiz_bg"/>
+
+    <EditText
+        android:id="@+id/op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Option 3"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:fontFamily="@font/anaheim"
+        android:textSize="21sp"
+        android:padding="17dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/add_quiz_bg"/>
+
+    <EditText
+        android:id="@+id/op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Option 4"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="17dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/anaheim"
+        android:textSize="21sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/add_quiz_bg"/>
+
+    <EditText
+        android:id="@+id/ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Enter Answer"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="17dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/addcourse_bg"
+        android:fontFamily="@font/anaheim"
+        android:textSize="21sp"/>
+
+    <Button
+        android:id="@+id/quebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/anaheim"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg" />
+
+</LinearLayout>

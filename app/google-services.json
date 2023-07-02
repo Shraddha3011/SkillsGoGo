@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358980825260",
+    "project_id": "skillsgogo-db38f",
+    "storage_bucket": "skillsgogo-db38f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358980825260:android:40d45dcd745f2f442a2f09",
+        "android_client_info": {
+          "package_name": "com.example.skillsgogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358980825260-m9ugboctce8p4qmrdhcqge3q147f0t6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnFIs7H3l2YbDc2UNoq7GLnxwKPB-XxOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358980825260-m9ugboctce8p4qmrdhcqge3q147f0t6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

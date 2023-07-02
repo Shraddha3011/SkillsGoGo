@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPost"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/yourName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/addcourse_bg"
+        android:fontFamily="@font/anaheim"
+        android:hint="Your Name"
+        android:inputType="text"
+        android:padding="17dp"
+        android:textSize="21sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <!--        android:layout_margin="12dp"-->
+
+
+
+
+
+    <EditText
+        android:id="@+id/postText"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/addcourse_bg"
+        android:hint="Add post"
+        android:inputType="text"
+        android:paddingLeft="17dp"
+        android:paddingBottom="17dp"
+        android:fontFamily="@font/anaheim"
+        android:textSize="21sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textAlignment="viewStart" />
+
+
+    <Button
+        android:id="@+id/submitpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/anaheim"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg"/>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherHome"
+    android:background="@color/black">
+
+    <ImageView android:layout_width="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+            <Button
+                android:id="@+id/add"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button_bg"
+                android:onClick="go_add"
+                android:text="Add Course"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/anaheim"
+                />
+
+            <Button
+                android:id="@+id/read"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button_bg"
+                android:onClick="go_read"
+                android:text="Your Courses"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/anaheim"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                style="?android:attr/buttonBarButtonStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button_bg"
+                android:onClick="go_delete"
+                android:text="Delete Course"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/anaheim"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                />
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/button_bg"
+                android:onClick="go_update"
+                android:text="Update Course"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/anaheim"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:background="@drawable/start_teaching"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        />
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkillsGoGo"
+        tools:targetApi="31">
+        <activity
+            android:name=".RemovePdf"
+            android:exported="false" />
+        <activity
+            android:name=".ReadComments"
+            android:exported="false" />
+        <activity
+            android:name=".GiveComments"
+            android:exported="false" />
+        <activity
+            android:name=".PostDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MyPost"
+            android:exported="false" />
+        <activity
+            android:name=".AddPost"
+            android:exported="false" />
+        <activity
+            android:name=".ReadPost"
+            android:exported="false" />
+        <activity
+            android:name=".Community"
+            android:exported="false" />
+        <activity
+            android:name=".SearchBycat"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByTitle"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByAuth"
+            android:exported="false" />
+        <activity
+            android:name=".SeeFile"
+            android:exported="false" />
+        <activity
+            android:name=".AddPdf"
+            android:exported="false" />
+        <activity
+            android:name=".AddCategory"
+            android:exported="false" />
+        <activity
+            android:name=".StudentSearch"
+            android:exported="false" />
+        <activity
+            android:name=".StudentView"
+            android:exported="false" />
+        <activity
+            android:name=".QuizResultActivity"
+            android:exported="false"
+            android:label="Quiz Result"
+            android:parentActivityName=".GiveQuiz" />
+        <activity
+            android:name=".GiveFeedBack"
+            android:exported="false" /> <!-- Remove the <activity> tag for HomeFragment -->
+        <activity
+            android:name=".NavMain"
+            android:exported="false" />
+        <activity
+            android:name=".ReadFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".GiveQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".AddQue"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateFetch"
+            android:exported="false" />
+        <activity
+            android:name=".CourseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateCourse"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteCourse"
+            android:exported="false" />
+        <activity
+            android:name=".ReadCourse"
+            android:exported="false" />
+        <activity
+            android:name=".AddCourse"
+            android:exported="false" />
+        <activity
+            android:name=".StudentHome"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherHome"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".ChoiceTL"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

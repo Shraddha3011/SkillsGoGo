@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+<!-- TODO: Update blank fragment layout -->
+    <ImageView android:layout_width="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Start Teaching"
+        android:background="@drawable/choice_tl_btn"
+        android:textColor="@color/black"
+        android:id="@+id/teach"
+        android:padding="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/anaheim"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Start Learning"
+        android:textColor="@color/black"
+        android:id="@+id/learn"
+        android:background="@drawable/choice_tl_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/anaheim"
+        />
+    <Button
+        android:id="@+id/Community"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Community"
+        android:textColor="@color/black"
+        android:background="@drawable/choice_tl_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/anaheim"
+        android:padding="18dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/choice_tl"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+</LinearLayout>

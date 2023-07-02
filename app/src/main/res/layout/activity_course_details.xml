@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/course_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/amaranth"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: "
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/course_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="21sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author: "
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/course_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="21sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reach Author at: "
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/course_authorEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="21sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Getting started with course"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/course_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:textSize="21sp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/see"
+            android:text="See Files"
+            android:layout_gravity="center"
+            android:background="@drawable/add_quiz_bg"
+            android:fontFamily="@font/anaheim"
+            android:padding="18dp"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/givequiz"
+            android:text="give quiz"
+            android:layout_gravity="bottom"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/anaheim"
+            android:textStyle="bold"
+            android:textSize="23sp"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/compiler"
+            android:text="go to compiler"
+            android:layout_gravity="center"
+            android:background="@drawable/add_quiz_bg"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:padding="18dp"
+            android:textSize="23sp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/feedback"
+            android:text="give feedback and rating"
+            android:layout_gravity="center"
+            android:background="@drawable/add_quiz_bg"
+            android:textColor="@color/white"
+            android:fontFamily="@font/anaheim"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:textSize="23sp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/readfeedback"
+            android:text="view feedbacks"
+            android:layout_gravity="center"
+            android:background="@drawable/add_quiz_bg"
+            android:fontFamily="@font/anaheim"
+            android:padding="18dp"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
